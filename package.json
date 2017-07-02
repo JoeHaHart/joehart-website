@@ -1,0 +1,24 @@
+{
+  "name": "joehart-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gel-grid": "^3.0.4",
+    "normalize-scss": "^7.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "sass-module-importer": "^1.4.0",
+    "webpack": "^3.0.0",
+    "bbc-grandstand":"git+ssh://git@github.com:bbc/grandstand.git"
+  },
+  "scripts": {
+    "build": "jekyll build",
+    "dev": "jekyll serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

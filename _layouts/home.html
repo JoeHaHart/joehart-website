@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    <div class="gel-wrap">
+        <div class="gel-layout homepage-header">
+            <div class="gel-layout__item homepage-header-text homepage-header-text__lead gel-1/3@m gel-1/5@l gel-1/2@s">
+                <h1>Joe Hart</h1>
+                <p>Comedian.</p>
+                <p>Coder.</p>
+            </div>
+            <div class="gel-layout__item gel-1/3@m gel-1/2@s">
+                <img class="homepage-header-image overlay" src="./assets/images/joe-hart-comedian-square.jpg"/>
+            </div>
+            <div class="gel-layout__item homepage-header-text homepage-header-intro gel-1/3@m gel-3/10@l gel-1/1@s">
+                <p>Hey there!</p>
+                <p>I'm Joe, I'm a nerdy, gay comedian and coder! I write <a href="#comedy">live shows</a>, record <a href="#videos">videos</a>, makes <a href="#games">video games</a> and design/code <a href="#things">things</a>.</p>
+                <p>If you want to do any of those things together, feel free to email me at joehart42 at gmail dot com. Or grab me on <a href="https://twitter.com/joehart">Twitter</a>, <a href="https://www.facebook.com/joehartcomedy/">Facebook</a>, <a href="www.linkedin.com/in/joe-hart-0322ab46
+">LinkedIn</a> or <a href="https://github.com/JoeHaHart">GitHub</a>.</p> 
+            </div>
+        </div>
+    </div>
+    <div class="gel-wrap homepage-section">
+        <div class="gel-layout">
+            <div class="gel-layout__item homepage-header-text__lead gel-1/5@l gel-1/3@m">
+                <h2>Comedy</h2>
+            </div>
+            <div class="gel-layout__item gel-4/5@l gel-2/3@m">
+                <div class="gel-layout">
+                    {% for show in site.comedy reversed %}
+                    {% assign future = false %}
+                    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                    {% for performance in show.performances %}
+                        {% capture performancetime %}{{performance | date: '%s'}}{% endcapture %}
+                        {% if performancetime > nowunix %}
+                            {% assign future = true %}
+                        {% endif %}
+                    {% endfor %}
+                    <div class="gel-1/2@m gel-1/3@l gel-layout__item homepage-item faux-block-link">
+                        <div class="homepage-item__media">
+                            <img class="media-image" src="{{show.promo-image}}"/>
+                            <p class="label">{{show.label}}</p>
+                        </div>
+                        <h3><a href="{{show.url}}" class="faux-block-link__overlay-link">{{show.title}}</a></h3>
+                        <p>{{show.intro}}</p>
+                        {% if future %}
+                        <a href="{{show.tickets}}">Book Tickets</a>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <section class="page-wrapper">
+            <p>This is a paragraph about my own things and stuff mandem;</p>
+            {{content}}
+        </section>
+    </div>
+
+</body>
+
+</html>
