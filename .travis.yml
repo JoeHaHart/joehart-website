@@ -3,11 +3,10 @@ rvm:
 - 2.3.3
 before_install:
   - npm install
-install: gem install jekyll html-proofer
-script: npm run travis
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+script:
+  - ls
+  - npm run travis
+  - ls
 deploy:
   provider: pages
   skip_cleanup: true
