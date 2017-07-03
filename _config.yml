@@ -28,8 +28,6 @@ sass:
   style: compressed
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
