@@ -29,6 +29,7 @@ h2, h3, h4, h5, h6{
     font-style: normal;
     font-weight: 600;
     margin:0;
+    line-height:1;
 }
 
 
@@ -170,4 +171,32 @@ Our implementation is based on http://codepen.io/IschaGast/pen/Qjxpxo
     }
 }
 
+.btn,.btn:link,.btn:visited {
+    display:inline-block;
+  font-family: "futura-pt","Futura","Helvetica","Arial",sans-serif;
+  font-weight:600;
+  color: #ffffff;
+  border:none;
+  margin-top:6px;
+  font-size:18px;
+  background: black;
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+  &:hover{
+    background: cyan;
+    text-decoration: none;
+  }
+}
+
+.btn:hover {
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -ms-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}
+
+
+
 @import 'homepage';
+@import 'videopage';

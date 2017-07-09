@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "gel-grid": "^3.0.4",
+    "jump.js": "^1.0.2",
     "node-sass": "^4.5.3",
     "normalize-scss": "^7.0.0",
     "sync-exec": "^0.6.2"

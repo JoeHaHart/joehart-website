@@ -39,3 +39,6 @@ collections:
     output: true
     permalink: /comedy/:path/
     future: true
+  videos:
+    output: true
+    permalink: /videos/:path/
