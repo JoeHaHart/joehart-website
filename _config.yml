@@ -37,9 +37,6 @@ collections:
     output: true
     permalink: /comedy/:path/
     future: true
-<<<<<<< HEAD
   videos:
     output: true
     permalink: /videos/:path/
-=======
->>>>>>> 0fdefd7792e8799fe32d4f57ccd46d7115087897
