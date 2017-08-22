@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "browserify": "^14.4.0",
     "gel-grid": "^3.0.4",
+    "gel-sass-tools": "^1.0.0",
     "jump.js": "^1.0.2",
     "node-sass": "^4.5.3",
     "normalize-scss": "^7.0.0",
-    "sync-exec": "^0.6.2",
-    "gel-sass-tools": "^1.0.0",
-    "sass-mq": "^3.0.0"
+    "sass-mq": "^3.0.0",
+    "sync-exec": "^0.6.2"
   },
   "devDependencies": {
     "sass-loader": "^6.0.6",

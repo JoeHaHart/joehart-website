@@ -196,7 +196,11 @@ Our implementation is based on http://codepen.io/IschaGast/pen/Qjxpxo
     transition: background-color 0.2s ease-out;
 }
 
-
+.page-header{
+      padding-top:16px;
+  padding-bottom: 8px;
+}
 
 @import 'homepage';
 @import 'videopage';
+@import 'nav';
