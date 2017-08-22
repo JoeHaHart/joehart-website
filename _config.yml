@@ -32,7 +32,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - [vendor]
+  - vendor
 collections:
   comedy:
     output: true
