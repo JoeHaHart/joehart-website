@@ -10,6 +10,7 @@
 .homepage-header-text__lead{
   h1, h2, h3, p{
     text-align: right;
+    
   }
   h1 a{
     text-decoration: none;
@@ -59,8 +60,13 @@
     a{
       text-decoration: none;
     }
+    margin-top:6px;
   }
-  
+  p {
+    margin-top: 6px;
+    line-height:18px;
+    font-size: 14px;
+  }
 
 }
 .label{
