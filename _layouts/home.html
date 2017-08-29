@@ -47,7 +47,7 @@
                             <img class="media-image" src="{{show.promo-image}}"/>
                             <p class="label">{{show.label}}</p>
                         </div>
-                        <h3><a href="{{site.baseurl}}{{show.url}}" class="faux-block-link__overlay-link">{{show.title}}</a></h3>
+                        <h3><a href="{{show.url}}" class="faux-block-link__overlay-link">{{show.title}}</a></h3>
                         <p>{{show.intro}}</p>
                         {% if future %}
                         <a href="{{show.tickets}}">Book Tickets</a>
@@ -72,7 +72,7 @@
                             <img class="media-image" src="{{site.baseurl}}/assets/images/video-images/{{video.promo-image}}"/>
                             <p class="label">{{video.duration}}</p>
                         </div>
-                        <h3><a href="{{site.baseurl}}{{video.url}}" class="faux-block-link__overlay-link">{{video.title}}</a></h3>
+                        <h3><a href="{{video.url}}" class="faux-block-link__overlay-link">{{video.title}}</a></h3>
                     </div>
                     {% endfor %}
                 </div>
