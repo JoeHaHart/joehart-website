@@ -1,4 +1,4 @@
-—
+---
 layout: comedy
 title:  “Clusterf**k”
 date:   2016-08-02 14:00:00 +0100
@@ -14,5 +14,5 @@ press:
   credit: “Kate Copstick”
   source:http://www.wow247.co.uk/2015/08/27/comedy-review-clusterfk/
   stars: ★★
-—
+---
 This is the regular night I host and run with sketch act Best Boy. Its a PWYW/Free Show. It’s the place where I try new material and all our wonderful acts try new stuff as well. if you’d like to come along or find out more. Check it out here: http://www.clusterfuckshow.com
