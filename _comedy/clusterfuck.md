@@ -1,16 +1,16 @@
 ---
 layout: comedy
-title:  “Clusterf**k”
+title:  "Clusterf**k"
 date:   2016-08-02 14:00:00 +0100
-promo-image: “assets/images/show-images/clusterfuck.jpg”
+promo-image: "assets/images/show-images/clusterfuck.jpg"
 intro: Running on the last Tuesday of every month, Clusterf**k is one of the Top 10 Free Comedy Nights in London(TimeOut). Hosted at The Miller just near London Bridge.
 venue: The Miller near London Bridge
 label: London
 time: 19:30
 featured: true
 press:
-- quote: “This is a compilation show.”
-  credit: “Kate Copstick”
+- quote: "This is a compilation show."
+  credit: "Kate Copstick"
   source: http://www.wow247.co.uk/2015/08/27/comedy-review-clusterfk/
   stars: ★★
 ---
